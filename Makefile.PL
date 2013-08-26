@@ -19,9 +19,6 @@ my %WriteMakefileArgs = (
     "File::ShareDir::Install" => "0.03"
   },
   "DISTNAME" => "Plack",
-  "EXE_FILES" => [
-    "script/plackup"
-  ],
   "LICENSE" => "perl",
   "NAME" => "Plack",
   "PREREQ_PM" => {
@@ -34,6 +31,7 @@ my %WriteMakefileArgs = (
     "HTTP::Message" => "5.814",
     "HTTP::Tiny" => "0.034",
     "Hash::MultiValue" => "0.05",
+    "Plack::Runner" => "1.0030",
     "Pod::Usage" => "1.36",
     "Stream::Buffered" => "0.02",
     "Test::TCP" => "2.00",
